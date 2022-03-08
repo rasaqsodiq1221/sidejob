@@ -4,29 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/assets/styles/style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
-    <div class="container">
-      <img src="/assets/images/hamburger.svg" alt="hamburger">
-      <img src="/assets/images/audilanHeaderLogo.svg" alt="logo">
-      <img src="/assets/images/charm_search.svg" alt="search">
+    <div class="container row">
+      <span><img src="/assets/images/hamburger.svg" alt="hamburger"></span>
+      <span><img src="/assets/images/audilanHeaderLogo.svg" alt="logo"> </span>
+      <span><img src="/assets/images/charm_search.svg" alt="search"></span>
     </div>
   </header>
-  <main>
-    <div class="container">
+  <main> 
+    <div class="container row">
       <div class="main_content">
         <h1>Stories For Everyone</h1>
         <p>listen to your favorite stories in any language of your choice and whenever you want</p>
         <button>GET STARTED</button>
       </div>
-      <img src="/assets/images/girlWithHeadphone.svg" alt="girl with headphone">
+      <span><img src="/assets/images/girlWithHeadphone.svg" alt="girl with headphone"></span>
     </div>
   </main>
   <section class="book_display">
-    <div class="container">
+    <div class="container row">
       <h2>Millions of books available for you, anywhere, anytime.</h2>
       <ul class="cards">
         <li class="card">
@@ -121,7 +121,7 @@
     </div>
   </section>
   <section class="about_us">
-    <div class="container">
+    <div class="container row">
       <img src="/assets/images/bigHeadphone.svg" alt="headphone">
       <div class="about_us_content">
         <h2>About Us</h2>
@@ -132,7 +132,7 @@
     </div>
   </section>
   <section class="offer_page">
-    <div class="container">
+    <div class="container row">
       <h2>What we offer</h2>
       <ul class="offers">
         <li>
@@ -143,14 +143,16 @@
           <p>Thousands of audiobook avilable for free just signup and listen for free</p>
         </li>
         <li>
-          <img src="/assets/images/ep_headset.svg" alt="headset">
+          <span>
+            <img src="/assets/images/ep_headset.svg" alt="headset">
             <h3>Listen anywhere, anytime</h3>
           </span>
           <p>Listen to your favourite books in any language of your choice, anywhere  you are </p>
         </li>
         <li>
-          <img src="/assets/images/charm_search.svg" alt="search">
-            <h3>Discover your Interset</h3>
+          <span>
+            <img src="/assets/images/charm_search.svg" alt="search">
+            <h3>Discover your Interest</h3>
           </span>
           <p>Find your interest from the vast  collection of audiobooks and ebooks available</p>
         </li>
@@ -159,7 +161,7 @@
     </div> 
   </section>
   <section class="displayTeam">
-    <div class="container">
+    <div class="container row">
       <h2>Meet our Team</h2>
       <ul class="teamProfiles">
         <li class="teamProfile">
@@ -254,49 +256,44 @@
     </div>
   </section>
   <section class="testimonials">
-    <div class="container">
+    <div class="container row">
       <h2>testimonials</h2>
-      <img src="/assets/images/quotation.svg" alt="quotation">
+      <img src="/assets/images/quotation.svg" alt="quotation" class="quotation">
       <ul class="testimonial_profiles">
         <li class="testimonial_profile">
-          <div>
             <p>
               “Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”
             </p>
             <div class="authorOfTestimony">
-              <img src="/assets/images/ahmadSaugi.svg" alt="ahmad saugi">
-              <h3>Ahmad Saugi</h3>
-              <small>Mahasiswa</small>
+              <span class="profile1"><img src="/assets/images/ahmadSaugi.svg" alt="ahmad saugi"></span>
+              <h3 class="profile2">Ahmad Saugi</h3>
+              <small class="profile3">Mahasiswa</small>
             </div>
-          </div>
         </li>
         <li class="testimonial_profile">
-          <div>
             <p>
               “Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”
             </p>
             <div class="authorOfTestimony">
-              <h3>Ahmad Saugi</h3>
-              <small>Mahasiswa</small>
+              <span class="profile1"><img src="/assets/images/ahmadSaugi.svg" alt="ahmad saugi"></span>
+              <h3 class="profile2">Ahmad Saugi</h3>
+              <small class="profile3">Mahasiswa</small>
             </div>
-          </div>
         </li>
         <li class="testimonial_profile">
-          <div>
             <p>
               “Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”
             </p>
             <div class="authorOfTestimony">
-              <img src="/assets/images/ahmadSaugi.svg" alt="ahmad saugi">
-              <h3>Ahmad Saugi</h3>
-              <small>Mahasiswa</small>
+              <span class="profile1"><img src="/assets/images/ahmadSaugi.svg" alt="ahmad saugi"></span>
+              <h3 class="profile2">Ahmad Saugi</h3>
+              <small class="profile3">Mahasiswa</small>
             </div>
-          </div>
         </li>
       </ul>
-      <img src="/assets/images/quotation.svg" alt="quotation">
+      <img src="/assets/images/quotation.svg" alt="quotation" class="quotation">
+      <h2>Our Partners</h2>
       <ul class="patners">
-        <h2>Our Partners</h2>
         <li><img src="/assets/images/UKTech.svg" alt="uk tech"></li>
         <li><img src="/assets/images/nerdsFactory.svg" alt="nerds factory"></li>
         <li><img src="/assets/images/designU.svg" alt="designU"></li>
@@ -304,7 +301,7 @@
     </div>
   </section>
   <footer>
-    <div class="container">
+    <div class="container row">
       <div>
         <img src="/assets/images/audilanFooterLogo.svg" alt="audilan">
         <small>follow us</small>
@@ -317,7 +314,7 @@
       </div>
       <div>
         <small>Contact us</small>
-        <ul>
+        <ul class="contact">
           <li>
             <img src="/assets/images/carbon_email.svg" alt="email">
             <small>www.audilan@info.com</small>
@@ -341,7 +338,7 @@
         <a href="#">Privacy policy</a>
       </div>
       <hr>
-      <small>Audilan 2022 all right reserved</small>
+      <small>&copy; Audilan 2022 all right reserved</small>
     </div>
   </footer>
 
